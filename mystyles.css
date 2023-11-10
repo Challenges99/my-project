@@ -1,0 +1,595 @@
+body{
+	background: #F3F2F2;
+    margin: 0px;
+    
+
+}
+
+.SignUpPage{
+
+	display: inline-flex;
+    
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    background: #FFF;
+}
+
+.SUPicFrame{
+    padding: 220px 99px;
+    background: #00AC6B;
+
+}
+
+.picbg{
+    
+    width: 508px;
+    height: 530px;
+    padding: 10px;
+    background: #000;
+}
+
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+.SUFormDiv{
+    padding: 50px 84px;
+}
+
+.SUform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.infoText{
+    text-align: left;
+}
+
+.companyDetails{
+    text-align: left;
+}
+
+.SUform label{
+    color: var(--text-gray, #455360);
+}
+
+
+
+.TBox{
+    width: 440px;
+    height: 48px;
+    margin-top: 10px;
+}
+
+.SUwith{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.sponsor{
+    display: flex;
+    height: 47px;
+    padding: 0px 5px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FFF;
+
+    /* 8dp penumbra */
+    box-shadow: 0px 3px 14px 3px rgba(0, 0, 0, 0.12);
+}
+
+
+
+.SUB{
+    display: flex;
+    width: 199px;
+    height:40px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--PRIMARY-CONTAINER, #2C71F0);
+    border: none;
+}
+
+.linkToSignIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+SIB{
+    display: flex;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.LogIn{
+   display: inline-flex;
+  
+   
+  
+   border-radius: 22px;
+   background: #FFF;
+   box-shadow: 0px 7.76604px 38.83019px 6.4717px rgba(0, 0, 0, 0.12);
+}
+
+.LIpicFrame{
+    padding: 148px;
+   border-radius: 0px 0px 22px 22px;
+   background: var(--Back-ground-gradient, linear-gradient(218deg, #65C19E -5.84%, #00AC6B 106.73%));
+}
+
+
+.LIpicBG{
+    width: 258px;
+    height: 388px;
+    background: #000;
+}
+
+.LIForm{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.SIFormDiv{
+
+   
+    
+    padding: 50px 100px 40px 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+
+.LogInButton{
+    margin-bottom: 20px;
+    width: 475px;
+    height: 40px;
+    background: var(--PRIMARY-CONTAINER, #2C71F0);
+    border: none;
+
+}
+
+.SignInPage{
+    display: flex;
+    
+    height: 1024px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.top{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: var(--PRIMARY, #00AC6B);
+
+}
+
+
+.one{
+
+    display: flex;
+    
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.navBar{
+    display: flex;
+    gap: 400px;
+    color: #FFF;
+}
+
+.thef{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+}
+
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    display: flex;
+    width: 122.558px;
+    height: 33.124px;
+    padding: 0px 19.874px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.281px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid var(--ON-PRIMARY, #FFF);
+    background-color: #00AC6B;
+    color: #FFF;
+}
+
+.intro{
+    display: inline-flex;
+    gap: 77px;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+
+}
+
+
+
+.slogText{
+    padding: 10px;
+    width: 582px;
+    color: #FFF;
+   
+}
+
+.homeLGB{
+    display: flex;
+    width: 137px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--PRIMARY-CONTAINER, #2C71F0);
+    border: none;
+
+}
+
+.slPicBG{
+   
+    width: 577px;
+    height: 397px;
+    background: var(--ON-PRIMARY, #000);
+    box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+
+}
+
+
+.functions{
+    padding: 50px 0px;
+    color: #15357A;
+}
+
+.funcPgContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 77px;
+    
+
+    
+}
+
+
+
+.funcPgText{
+    display: flex;
+    
+    
+    align-items: center;
+    gap: 10px;
+    width: 582px;
+    color: #000;
+
+}
+
+.welcoming{
+
+    display: flex;
+   align-items: center;
+    padding: 79px 139px;
+    flex-direction: column;
+    gap: 81px;
+    background: #FFF4E0;
+
+}
+
+.welcomingTexts{
+  
+    
+    text-align: center;
+    width: 70%;
+}
+
+.weltext1{
+    
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+
+    
+}
+
+.weltext2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: justify;
+   width: 900px;
+}
+
+.welcomingPicBG{
+    width: 968px;
+    height: 548px;
+    border-radius: 40px;
+    background: #000;
+    box-shadow: 0px 6px 30px 5px rgba(197, 111, 111, 0.12);
+
+}
+
+.HrTools{
+    display: flex;
+    padding: 50px 90px;
+    flex-direction: column;
+    gap: 50px;
+    background: var(--Surface-color, #FFF);
+   
+}
+
+
+.HrToolsText{
+    display: inline-block;
+    
+    text-align: center;
+
+}
+
+.HrToolsPicHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.HrToolsPics{
+    display: flex;
+    gap: 22px;
+
+}
+
+.ToolsPic{
+    width: 400px;
+    height: 400px;
+    background: #000;
+}
+
+
+.moveUpButton{
+    width: 300px;
+    border-radius: 20px;
+    background: var(--PRIMARY-CONTAINER, #2C71F0);
+    border: none;
+    padding: 10px;
+}
+
+.bottom{
+    display: flex;
+    padding: 44px 140px;
+    justify-content: center;
+    gap: 55px 400px;
+    flex-wrap: wrap;
+    background: var(--on-secondary, #15357A);
+    color:#FFF;
+
+}
+
+.bottomDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+
+}
+
+.logosMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.media{
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+}
+
+.resoucesFeaturesCompare{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+   
+    
+}
+.bottomFeaturesDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.bottomUl{
+    display: flex;
+    padding: 8.5px 93px 7.5px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    list-style: none;
+
+}
+
+.CopyrightDisclaimer{
+    display: flex;
+    width: 1160px;
+    align-items: center;
+    gap:300px;
+    border-top: 1px solid #B1E7EB;
+}
+
+.disclaimer{
+
+    list-style: none;
+    
+    display: flex;
+    padding: 6px 6px 6px 6px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 19.188px;
+}
+
+h1{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.dashboard{
+
+
+
+}
+
+.dashboardTBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 514px;
+    background: var(--PRIMARY, #00AC6B);
+    color: var(--on-secondary, #15357A);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dbTbFeatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.profilePic{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #FFF;
+}
+
+.DBSignOut{
+    padding: 10px;
+    border: none;
+    background: var(--PRIMARY-CONTAINER, #2C71F0);
+}
+
+.DBemployees{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 153px;
+
+
+}
+
+.DBwelcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 394px;
+}
+
+.employees{
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+}
+
+.DBemployeesList{
+
+    display: flex;
+align-items: flex-start;
+align-content: flex-start;
+gap: 25px 36px;
+flex-wrap: wrap;
+}
+
+
+.nameAndPicture{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+
+}
+
+.adminAndPersonal{
+
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.addButton{
+width: 120px;
+height: 120px;
+border-radius: 120px;
+background: var(--PRIMARY-CONTAINER, #2C71F0);
+text-align: center;
+
+}
+
+.employeePic{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background: #000;
+
+}
